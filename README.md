@@ -4,15 +4,6 @@
 
 ```bash
 brew tap johngallagher/homebrew-tools
-```
-
-**`deploy_this`**
-
-A script to deploy a branch to Cloud 66.
-
-**Installation**
-
-```bash
 brew install deploy_this
 ```
 
