@@ -1,7 +1,7 @@
 class DeployThis < Formula
   desc "A command line tool to deploy to Cloud66"
   url "https://github.com/johngallagher/deploy_this/archive/1.0.0.tar.gz"
-  sha256 "f6dd8149903af578289155cc9bb79dfbbe781424142a8e3f6e3c4c5379a1353a"
+  sha256 "06e8b94389599e5153c2929e4def9bf5bc7e6ae04509267dfac11734dd66fbd0"
   version "1.0.0"
 
   bottle :unneeded
