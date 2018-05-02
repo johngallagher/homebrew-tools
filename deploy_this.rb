@@ -8,5 +8,6 @@ class DeployThis < Formula
 
   def install
     bin.install "deploy_this"
+    prefix.install Dir["lib"]
   end
 end
