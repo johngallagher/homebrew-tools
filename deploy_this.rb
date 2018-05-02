@@ -7,7 +7,7 @@ class DeployThis < Formula
   bottle :unneeded
 
   def install
-    bin.install "deploy_this"
-    prefix.install Dir["lib"]
+    libexec.install Dir["*"]
+    bin.write_exec_script (libexec/"deploy_this")
   end
 end
